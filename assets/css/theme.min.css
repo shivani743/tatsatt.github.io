@@ -1,3 +1,11 @@
+body {
+    font: 400 17px/28px;
+    font-style: normal;
+    color: #798795;
+    overflow-x: hidden;
+    font-family: 'Poppins';
+}
+
 .page-wrapper {
     overflow-x: hidden;
 }
@@ -265,6 +273,14 @@ Shadow
 
 .shadow-none {
     box-shadow: none !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0);
+}
+
+.ptb-20 {
+    padding: 12px!important;
 }
 
 
@@ -1479,4 +1495,159 @@ Other
 
 .bg-dark-blue {
     background-color: rgb(8 35 68);
+}
+
+.mr-auto,
+.mx-auto {
+    margin-right: inherit!important;
+}
+
+.footer-about .text {
+    padding-top: 25px;
+    font-size: 16px
+}
+
+.footer-title .title {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #222
+}
+
+.footer-link ul li {
+    margin-top: 7px;
+    color: #fff;
+}
+
+.footer-link ul li a {
+    font-size: 16px;
+    color: #d6d6d6;
+}
+
+.footer-link ul li a:hover {
+    color: #222
+}
+
+.footer-contact .text {
+    font-size: 16px;
+    padding-top: 0px;
+    color: #fff;
+    line-height: 22px;
+    margin-bottom: 0px;
+}
+
+.footer-contact .social li {
+    display: inline-block;
+    margin-right: 26px
+}
+
+.footer-contact .social li:last-child {
+    margin-right: 0
+}
+
+.footer-contact .social li a {
+    font-size: 26px;
+    color: #798795;
+}
+
+.footer-contact .social li a:hover {
+    color: #fff;
+}
+
+.footer-copyright {
+    padding: 8px;
+    border-top: 1px solid #dedede4f
+}
+
+.footer-copyright .text {
+    font-size: 14px;
+    color: #d2d2d2;
+    margin-bottom: -13px;
+}
+
+.footer-copyright .text a {
+    color: #fff;
+}
+
+.bg-footer {
+    background-color: #000;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.footer-list {
+    text-align: center;
+    font-size: 14px;
+    color: #b5b5b5;
+    cursor: pointer;
+}
+
+.social-icon {
+    padding: 11px 0px 11px 0px;
+    font-size: 18px;
+    width: 39px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 6px;
+}
+
+.social-icon:hover {
+    background: #fff;
+}
+
+.fa-facebook {
+    color: #3B5998;
+    background: white;
+}
+
+.fa-twitter {
+    color: #55ACEE;
+    background: white;
+}
+
+.fa-google {
+    color: #dd4b39;
+    background: white;
+}
+
+.fa-linkedin {
+    color: #007bb5;
+    background: white;
+}
+
+.fa-youtube-play {
+    color: #bb0000;
+    background: white;
+}
+
+.fa-instagram {
+    color: rgb(233 30 99);
+    background: white;
+}
+
+.fa-facebook:hover {
+    color: #3B5998;
+}
+
+.fa-twitter:hover {
+    color: #55ACEE;
+}
+
+.fa-google:hover {
+    color: #dd4b39;
+}
+
+.fa-linkedin:hover {
+    color: #007bb5;
+}
+
+.fa-youtube-play:hover {
+    color: #bb0000;
+}
+
+.fa-instagram:hover {
+    color: rgb(233 30 99);
 }
