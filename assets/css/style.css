@@ -711,7 +711,7 @@ p {
 
 @media only screen and (min-width:1400px) {
     .header-hero {
-        padding: 150px 0px 150px 0px;
+        padding: 206px 0px 150px 0px;
     }
 }
 
@@ -3324,4 +3324,8 @@ img.shape-w3-six {
 
 .txt-center {
     text-align: center;
+}
+
+.m-left {
+    margin-left: 15px!important;
 }
