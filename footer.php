@@ -142,7 +142,7 @@
     <script>
         easy_background("#home",
             {
-                slide: ["assets/images/bg/Frame 1.png", "assets/images/bg/Frame 2.png", "assets/images/bg/Frame 3.png", "assets/images/bg/Frame 4.png"],
+                slide: ["assets/images/bg/slider1.png", "assets/images/bg/slider2.png", "assets/images/bg/slider3.png"],
                 delay: [3000, 3000, 3000],
 
             }
