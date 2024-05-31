@@ -23,87 +23,78 @@
 
 <body oncontextmenu="return false;">
 
-    <!-- Main Navigation Menu -->
-    <header id="navbar"
-        class="sticky inset-x-0 top-0 z-[999!important] transition-all bg-white duration-500 py-4 flex items-center [&.nav-sticky]:bg-white/90 [&.nav-sticky]:backdrop-blur-3xl [&.nav-sticky]:shadow-2xl dark:[&.nav-sticky]:bg-default-50/80"
-        style="box-shadow: 2px 27px 21px #0000001c!important;background: #ffffffcd;">
-        <div class="container">
-            <div class="flex items-center justify-between flex-wrap lg:flex-nowrap gap-4">
-                <div class="w-full lg:w-auto flex items-center justify-between">
-                    <!-- Navbar Brand Logo -->
-                    <a href="index.html">
-                        <img src="assets/images/logo.png" alt="logo" class="h-12 flex">
-                    </a>
+  <!-- Main Navigation Menu -->
+  <header id="navbar" class="sticky inset-x-0 top-0 z-[999!important] transition-all bg-white duration-500 py-4 flex items-center [&.nav-sticky]:bg-white/90 [&.nav-sticky]:backdrop-blur-3xl [&.nav-sticky]:shadow-2xl dark:[&.nav-sticky]:bg-default-50/80"  style="box-shadow: 2px 27px 21px #0000001c!important; background: #ffffff5e;">
+    <div class="container">
+        <div class="flex items-center justify-between flex-wrap lg:flex-nowrap gap-4">
+            <div class="w-full lg:w-auto flex items-center justify-between  bg-white rounded-md " style=" padding: 8px 26px; box-shadow: 5px 5px 20px #00000047;">
+                <!-- Navbar Brand Logo -->
+                <a href="index.html"> <img src="assets/images/logo.png" alt="logo" class="h-10 flex"> </a>
 
-                    <!-- Mobile Menu Toggle Button ---->
-                    <button class="hs-collapse-toggle lg:hidden inline-block" id="hs-unstyled-collapse"
-                        data-hs-collapse="#mobileMenu" data-hs-type="collapse">
-                        <i data-lucide="menu" class="w-7 h-7 text-default-600 hover:text-default-900"></i>
-                    </button>
-                </div>
+                <!-- Mobile Menu Toggle Button -->
+                <button class="hs-collapse-toggle lg:hidden inline-block" id="hs-unstyled-collapse"
+                    data-hs-collapse="#mobileMenu" data-hs-type="collapse">
+                    <i data-lucide="menu" class="w-7 h-7 text-default-600 hover:text-default-900"></i>
+                </button>
+            </div>
 
-                <div id="mobileMenu"
-                    class="hs-collapse transition-all duration-300 lg:basis-auto basis-full grow hidden lg:flex items-center justify-start	 mx-auto mt-2 lg:mt-0 overflow-hidden">
-                    <!-- Nevigation Menu -->
-                    <ul class="menu flex lg:justify-start	px-8 justify-start flex-col lg:flex-row gap-y-2">
+            <div id="mobileMenu"  class="hs-collapse transition-all duration-300 lg:basis-auto basis-full grow hidden lg:flex items-center justify-start	 mx-auto mt-2 lg:mt-0 overflow-hidden">
+                <!-- Nevigation Menu -->
+                <ul class="menu flex lg:justify-start	px-8 justify-start flex-col lg:flex-row gap-y-2">
 
-                        <li
-                            class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
-                            <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full font-work  capitalize"
-                                href="#home">home </a>
-                        </li>
-                        <li
-                            class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
-                            <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full font-work  capitalize"
-                                href="#about">about </a>
-                        </li>
-                        <li
-                            class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
-                            <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full font-work  capitalize"
-                                href="#services">services </a>
-                        </li>
+                    <li class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
+                        <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full font-work  capitalize"
+                            href="#home">home </a>
+                    </li>
+                    <li class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
+                        <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full font-work  capitalize"
+                            href="#about">about </a>
+                    </li>
+                    <li class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
+                        <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full font-work  capitalize"
+                            href="#services">services </a>
+                    </li>
 
-                        <li
-                            class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
-                            <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full font-work  capitalize"
-                                href="#faq">faq </a>
-                        </li>
-                        <li
-                            class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
-                            <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full font-work  capitalize"
-                                href="#portfolio">Contact </a>
-                        </li>
+                    <li class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
+                        <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full font-work  capitalize"
+                            href="#faq">faq </a>
+                    </li>
+                    <li
+                        class="menu-item text-default-800 lg:mx-2 transition-all duration-500 hover:text-primary [&.active]:text-primary">
+                        <a class="inline-flex items-center text-sm lg:text-base font-medium py-0.5 px-2 rounded-full font-work  capitalize"
+                            href="#portfolio">Contact </a>
+                    </li>
+                </ul>
+            </div>
 
-                    </ul>
-                </div>
-
-                <div class="ms-auto shrink hidden lg:inline-flex gap-3">
-                    <form class="flex items-center max-w-sm mx-auto">
-                        <label for="simple-search" class="sr-only">Search</label>
-                        <div class="relative w-full">
-                            <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
-                                <svg class="w-4 mx-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true"
-                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                        stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
-                                </svg>
-                            </div>
-                            <input type="text" id="simple-search"
-                                class="w-72 pl-[49px!important] bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5 dark:placeholder-gray-400 dark:text-white"
-                                placeholder="Search categories..." required />
+            <div class="ms-auto shrink hidden lg:inline-flex gap-2">
+                <form class="flex items-center max-w-sm mx-auto">
+                    <label for="simple-search" class="sr-only">Search</label>
+                    <div class="relative w-full">
+                        <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+                            <svg class="w-4 mx-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+                            </svg>
                         </div>
+                        <input type="text" id="simple-search"
+                            class="w-72 pl-[49px!important] bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5 dark:placeholder-gray-400 dark:text-white"
+                            placeholder="Search categories..." required />
+                    </div>
 
-                    </form>
-                    <a href="#"
-                        class="py-1.5 px-6 inline-flex items-center gap-2 rounded-md text-base text-white bg-black hover:bg-black-700 transition-all duration-500">
+                </form>
+                <a href="#"
+                    class="py-1.5 px-8 inline-flex items-center gap-2 text-base text-white bg-black hover:bg-black-700 transition-all duration-500 shadow-2xl">
 
-                        <span class="hidden sm:block">Log In</span>
-                    </a>
-                </div>
+                    <span class="hidden sm:block">Log In</span>
+                </a>
             </div>
         </div>
-    </header>
-<!-- Hero Section Start --->
+    </div>
+</header>
+
+<!-- Hero Section Start -->
 <!-- <section class="relative overflow-hidden">
         <div style="background-image: url('assets/images/bg-1-BVx-W3eB.png');">
             <div class="container">
@@ -257,8 +248,15 @@
 <!-- Hero end -->
 
 <!-- Hero Start -->
-<section class="relative md:pb-16 py-16 table w-full items-center bg-center" id="home">
-    <div class="absolute inset-0 bg-slate-900/40"></div>
+<section class="relative md:pb-16 py-16 table w-full items-center bg-center" id="home" style="height:450px!important">
+    <div class="absolute inset-0"></div>
+   
+</section>
+<!--end section-->
+
+
+<!--category section-->
+<section class="bg-two-color py-12">
     <div class="container relative">
         <div class="grid grid-cols-1">
             <div class="container lg:w-8/12 md:w-full">
@@ -269,7 +267,7 @@
                 <div class="grid lg:grid-cols-5 md:grid-cols-5 grid-cols-3  gap-2 py-2">
                     <div>
                         <a href="http://localhost/UrbanCompany/service-detail.php">
-                            <div class="bg-white p-2 py-2 h-full rounded-sm content-center">
+                            <div class="bg-white  p-2 py-2 h-full rounded-sm content-center box-shadow-inside">
                                 <img class="h-10 w-10 mx-auto" src='assets/images/image 14.svg' alt=''>
                                 <p class="text-center mt-1 text-sm">Salon for Women</p>
 
@@ -277,14 +275,14 @@
                         </a>
                     </div>
                     <div>
-                        <div class="bg-white p-2 py-2 h-full rounded-sm content-center">
+                        <div class="bg-white p-2 py-2 h-full rounded-sm content-center  box-shadow-inside">
                             <img class="h-10 w-10 mx-auto" src='assets/images/image 4.svg' alt=''>
                             <p class="text-center mt-1 text-sm">Spa for Women</p>
 
                         </div>
                     </div>
                     <div>
-                        <div class="bg-white p-2 py-2 h-full rounded-sm content-center">
+                        <div class="bg-white p-2 py-2 h-full rounded-sm content-center  box-shadow-inside">
                             <img class="h-10 w-10 mx-auto" src='assets/images/image 8.svg' alt=''>
                             <p class="text-center mt-1 text-sm">Hair &
                                 Skin</p>
@@ -292,7 +290,7 @@
                         </div>
                     </div>
                     <div>
-                        <div class="bg-white p-2 py-2 h-full rounded-sm content-center">
+                        <div class="bg-white p-2 py-2 h-full rounded-sm content-center  box-shadow-inside">
                             <img class="h-10 w-10 mx-auto" src='assets/images/image 5.svg' alt=''>
                             <p class="text-center mt-1 text-sm">Salon for
                                 Men</p>
@@ -300,7 +298,7 @@
                         </div>
                     </div>
                     <div>
-                        <div class="bg-white p-2 py-2 h-full rounded-sm content-center">
+                        <div class="bg-white p-2 py-2 h-full rounded-sm content-center  box-shadow-inside">
                             <img class="h-10 w-10 mx-auto" src='assets/images/image 7.svg' alt=''>
                             <p class="text-center mt-1 text-sm">Massage for Men</p>
 
@@ -311,35 +309,35 @@
                 <p class="text-md pt-1 font-work font-bold text-white">Home Services</p>
                 <div class="grid lg:grid-cols-5 md:grid-cols-5 grid-cols-3 gap-2 py-2">
                     <div>
-                        <div class="bg-white p-2 py-2 h-full rounded-sm content-center">
+                        <div class="bg-white p-2 py-2 h-full rounded-sm content-center  box-shadow-inside">
                             <img class="h-10 w-10 mx-auto" src='assets/images/image 111.svg' alt=''>
                             <p class="text-center mt-1 text-sm">Electical Plumbing</p>
 
                         </div>
                     </div>
                     <div>
-                        <div class="bg-white p-2 py-2 h-full rounded-sm content-center">
+                        <div class="bg-white p-2 py-2 h-full rounded-sm content-center  box-shadow-inside">
                             <img class="h-10 w-10 mx-auto" src='assets/images/image 115.svg' alt=''>
                             <p class="text-center mt-1 text-sm">Cleaning & Pest</p>
 
                         </div>
                     </div>
                     <div>
-                        <div class="bg-white p-2 py-2 h-full rounded-sm content-center">
+                        <div class="bg-white p-2 py-2 h-full rounded-sm content-center  box-shadow-inside">
                             <img class="h-10 w-10 mx-auto" src='assets/images/image 113.svg' alt=''>
                             <p class="text-center mt-1 text-sm">Home Painting</p>
 
                         </div>
                     </div>
                     <div>
-                        <div class="bg-white p-2 py-2 h-full rounded-sm content-center">
+                        <div class="bg-white p-2 py-2 h-full rounded-sm content-center  box-shadow-inside">
                             <img class="h-10 w-10 mx-auto" src='assets/images/image 113.svg' alt=''>
                             <p class="text-center mt-1 text-sm">Home Painting</p>
 
                         </div>
                     </div>
                     <div>
-                        <div class="bg-white p-2 py-2 h-full rounded-sm content-center">
+                        <div class="bg-white p-2 py-2 h-full rounded-sm content-center  box-shadow-inside">
                             <img class="h-10 w-10 mx-auto" src='assets/images/image 115.svg' alt=''>
                             <p class="text-center mt-1 text-sm">Cleaning & Pest</p>
 
@@ -354,9 +352,10 @@
     </div>
     <!--end container-->
 </section>
-<!--end section-->
-<!-- Hero End -->
+<!--category section-->
 
+
+<!--Professional quality cleaning-->
 <section data-aos="fade-up" class="relative md:pt-12 pt-10 pb-10 overflow-hidden"
     style="background-image: url('assets/images/bg-1-BVx-W3eB.png');">
     <div class="container relative">
@@ -364,10 +363,7 @@
             <div class="md:col-span-5">
                 <div class="relative">
                     <img src="assets/images/about 1.png" class="mx-auto rounded-3xl w-[90%]" alt="">
-
-
-                    <div
-                        class="absolute flex items-center bottom-16 md:-start-10 -start-5 p-4 rounded-lg shadow-md bg-white  w-56 m-3">
+                    <div class="absolute flex items-center bottom-16 md:-start-10 -start-5 p-4 rounded-lg shadow-md bg-white  w-56 m-3">
                         <div
                             class="flex items-center justify-center h-[65px] min-w-[65px] bg-red-500/5 text-red-500 text-center rounded-xl me-3">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -446,8 +442,9 @@
     <!--end container-->
 
 </section>
+<!--Professional quality cleaning-->
 
-<!-- Start -->
+<!-- New and noteworthy -->
 <section data-aos="fade-up" class="relative md:pt-12 pt-12 pb-12 overflow-hidden">
     <div class="container relative">
         <div class="grid grid-cols-1 text-left">
@@ -545,11 +542,12 @@
     <!--end container-->
 
 </section>
-<!--end section-->
+<!--New and noteworthy end section-->
 
-<section data-aos="fade-left" class="bg-[#24DF97] mt-6">
+<!--WHAT WE OFFER-->
+<section data-aos="fade-left" class="bg-one-color mt-6">
     <div class="why-section lg:py-12 py-0 sm:py-12">
-        <div class="mx-auto max-w-7xl pt-4">
+        <div class="mx-auto max-w-7xl pt-4 p-4">
             <div class="w-full lg:mx-0 pb:4">
                 <p class="text-center uppercase py-4 text-black">WHAT WE OFFER </p>
                 <h2 class="text-center text-3xl font-bold tracking-tight text-black sm:text-4xl font-sora">A
@@ -651,63 +649,88 @@
         </div>
     </div>
 </section>
-<!-- End -->
+<!--WHAT WE OFFER-->
+
 
 <section class="container wrapper !bg-[#ffffff]">
-        <div class="container pt-12">
-          <div class="flex flex-wrap mx-[-15px] !text-center mb-10">
+    <div class="container pt-12">
+        <div class="flex flex-wrap mx-[-15px] !text-center mb-10">
             <div class="md:w-10/12 lg:w-9/12 xl:w-9/12 xxl:w-8/12 w-full flex-[0_0_auto] px-[15px] max-w-full !mx-auto">
-              <h2 class="text-[0.8rem] tracking-[0.02rem] uppercase text-[#aab0bc] !mb-3 !leading-[1.35]">What We Do?</h2>
-              <h3 class="xl:text-[2.1rem] text-[calc(1.335rem_+_1.02vw)] !leading-[1.2] font-semibold xl:!px-10  !mb-0 font-sora">The service we offer is specifically designed to meet your needs.</h3>
+                <h2 class="text-[0.8rem] tracking-[0.02rem] uppercase text-[#aab0bc] !mb-3 !leading-[1.35]">What We Do?
+                </h2>
+                <h3
+                    class="xl:text-[2.1rem] text-[calc(1.335rem_+_1.02vw)] !leading-[1.2] font-semibold xl:!px-10  !mb-0 font-sora">
+                    The service we offer is specifically designed to meet your needs.</h3>
             </div>
             <!-- /column -->
-          </div>
-          <!-- /.row -->
-          <div class="flex flex-wrap mx-[-15px] xl:mx-0 lg:mx-0 mt-[-50px] mb-20 xl:!mb-[7rem] lg:!mb-[7rem] md:!mb-[7rem] items-center">
+        </div>
+        <!-- /.row -->
+        <div
+            class="flex flex-wrap mx-[-15px] xl:mx-0 lg:mx-0 mt-[-50px] mb-20 xl:!mb-[7rem] lg:!mb-[7rem] md:!mb-[7rem] items-center">
             <div class="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] px-[15px] xl:px-0 lg:px-0 mt-[50px] max-w-full">
-                <figure class="!rounded-[.4rem]  !mb-0"><img class="max-w-full h-42"
-                    src="assets/images/cleaning.png" 
-                    alt="image"></figure>
+                <figure class="!rounded-[.4rem]  !mb-0"><img class=" h-42"
+                        src="assets/images/cleaning.png" 
+                        alt="image"></figure>
             </div>
             <!--/column -->
-            <div class="xl:w-5/12 lg:w-5/12 w-full flex-[0_0_auto] px-[15px] xl:px-0 lg:px-0 mt-[50px] max-w-full ml-auto">
-              <h3 class="xl:text-xl text-[calc(1.265rem_+_0.18vw)] !mb-3 font-sora font-bold">We care for your home like it’s our own</h3>
-              <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna risus varius.</p>
-              <ul class="pl-0 list-none bullet-bg bullet-soft-purple pt-5">
-                <li class="relative pl-6 mt-[0.35rem]"><i class="uil uil-check absolute left-0 w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex items-center justify-center bg-[#e6e8f7] text-[#747ed1] rounded-[100%] top-[0.2rem]"></i>Aenean quam ornare curabitur blandit.</li>
-                <li class="relative pl-6 mt-[0.35rem]"><i class="uil uil-check absolute left-0 w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex items-center justify-center bg-[#e6e8f7] text-[#747ed1] rounded-[100%] top-[0.2rem]"></i>Nullam quis risus eget urna mollis ornare leo.</li>
-                <li class="relative pl-6 mt-[0.35rem]"><i class="uil uil-check absolute left-0 w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex items-center justify-center bg-[#e6e8f7] text-[#747ed1] rounded-[100%] top-[0.2rem]"></i>Etiam porta euismod mollis natoque ornare.</li>
-              </ul>
-            
+            <div
+                class="xl:w-5/12 lg:w-5/12 w-full flex-[0_0_auto] px-[15px] xl:px-0 lg:px-0 mt-[50px] max-w-full ml-auto">
+                <h3 class="xl:text-xl text-[calc(1.265rem_+_0.18vw)] !mb-3 font-sora font-bold">We care for your home
+                    like it’s our own</h3>
+                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo
+                    odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna risus varius.</p>
+                <ul class="pl-0 list-none bullet-bg bullet-soft-purple pt-5">
+                    <li class="relative pl-6 mt-[0.35rem]"><i
+                            class="uil uil-check absolute left-0 w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex items-center justify-center bg-[#e6e8f7] text-[#747ed1] rounded-[100%] top-[0.2rem]"></i>Aenean
+                        quam ornare curabitur blandit.</li>
+                    <li class="relative pl-6 mt-[0.35rem]"><i
+                            class="uil uil-check absolute left-0 w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex items-center justify-center bg-[#e6e8f7] text-[#747ed1] rounded-[100%] top-[0.2rem]"></i>Nullam
+                        quis risus eget urna mollis ornare leo.</li>
+                    <li class="relative pl-6 mt-[0.35rem]"><i
+                            class="uil uil-check absolute left-0 w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex items-center justify-center bg-[#e6e8f7] text-[#747ed1] rounded-[100%] top-[0.2rem]"></i>Etiam
+                        porta euismod mollis natoque ornare.</li>
+                </ul>
+
             </div>
             <!--/column -->
-          </div>
-          <!--/.row -->
-          <div class="flex flex-wrap mx-[-15px] xl:mx-0 lg:mx-0 mt-[-50px] mb-20 xl:!mb-[7rem] lg:!mb-[7rem] md:!mb-[7rem] items-center">
-            <div class="lg:w-6/12 xl:w-6/12 w-full flex-[0_0_auto] px-[15px] xl:px-0 lg:px-0 mt-[50px] max-w-full lg:!order-2 xl:!order-2 ml-auto">
+        </div>
+        <!--/.row -->
+        <div
+            class="flex flex-wrap mx-[-15px] xl:mx-0 lg:mx-0 mt-[-50px] mb-20 xl:!mb-[7rem] lg:!mb-[7rem] md:!mb-[7rem] items-center">
+            <div
+                class="lg:w-6/12 xl:w-6/12 w-full flex-[0_0_auto] px-[15px] xl:px-0 lg:px-0 mt-[50px] max-w-full lg:!order-2 xl:!order-2 ml-auto">
                 <figure class="!rounded-[.4rem]  !mb-0"><img class="max-w-full h-42"
-                    src="assets/images/cleaning.png" 
-                    alt="image"></figure>
+                        src="assets/images/cleaning.png" 
+                        alt="image"></figure>
             </div>
             <!--/column -->
             <div class="xl:w-5/12 lg:w-5/12 w-full flex-[0_0_auto] px-[15px] xl:px-0 lg:px-0 mt-[50px] max-w-full">
-              <h3 class="xl:text-xl text-[calc(1.265rem_+_0.18vw)] !mb-3 font-sora font-bold">We care for your home like it’s our own.</h3>
-              <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna risus varius.</p>
-              <ul class="pl-0 list-none bullet-bg bullet-soft-purple">
-                <li class="relative pl-6 mt-[0.35rem]"><i class="uil uil-check absolute left-0 w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex items-center justify-center bg-[#e6e8f7] text-[#747ed1] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i>Aenean quam ornare curabitur blandit.</li>
-                <li class="relative pl-6 mt-[0.35rem]"><i class="uil uil-check absolute left-0 w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex items-center justify-center bg-[#e6e8f7] text-[#747ed1] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i>Nullam quis risus eget urna mollis ornare leo.</li>
-                <li class="relative pl-6 mt-[0.35rem]"><i class="uil uil-check absolute left-0 w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex items-center justify-center bg-[#e6e8f7] text-[#747ed1] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i>Etiam porta euismod mollis natoque ornare.</li>
-              </ul>
-            
+                <h3 class="xl:text-xl text-[calc(1.265rem_+_0.18vw)] !mb-3 font-sora font-bold">We care for your home
+                    like it’s our own</h3>
+                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo
+                    odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna risus varius.</p>
+                <ul class="pl-0 list-none bullet-bg bullet-soft-purple">
+                    <li class="relative pl-6 mt-[0.35rem]"><i
+                            class="uil uil-check absolute left-0 w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex items-center justify-center bg-[#e6e8f7] text-[#747ed1] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i>Aenean
+                        quam ornare curabitur blandit.</li>
+                    <li class="relative pl-6 mt-[0.35rem]"><i
+                            class="uil uil-check absolute left-0 w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex items-center justify-center bg-[#e6e8f7] text-[#747ed1] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i>Nullam
+                        quis risus eget urna mollis ornare leo.</li>
+                    <li class="relative pl-6 mt-[0.35rem]"><i
+                            class="uil uil-check absolute left-0 w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex items-center justify-center bg-[#e6e8f7] text-[#747ed1] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i>Etiam
+                        porta euismod mollis natoque ornare.</li>
+                </ul>
+
             </div>
             <!--/column -->
-          </div>
-          <!--/.row -->
-        
-          <!--/.row -->
         </div>
-        <!-- /.container -->
-      </section>
+        <!--/.row -->
+
+        <!--/.row -->
+    </div>
+    <!-- /.container -->
+</section>
+
 
 <section data-aos="fade-up">
     <div class="bg-white py-10">
@@ -732,9 +755,10 @@
 
 <!-- Hero Start -->
 <div class="container">
-    <section class="relative md:pb-8 py-40 table w-full items-center bg-center" id="homes" style="height:250px!important">
+    <section class="relative md:pb-8 py-40 table w-full items-center bg-center" id="homes"
+        style="height:250px!important">
         <div class="absolute inset-0 bg-slate-900/40"></div>
-       
+
     </section>
 </div>
 
@@ -742,7 +766,7 @@
 <section data-aos="fade-up">
     <div class="container">
         <div
-            class="bg-[#2691C9] my-6 place-items-center rounded shadow-customFour overflow-hidden relative z-10 py-12 grid grid-cols-1 px-10 lg:grid-cols-2 gap-12">
+            class="bg-two-color my-6 place-items-center rounded shadow-customFour overflow-hidden relative z-10 py-12 grid grid-cols-1 px-10 lg:grid-cols-2 gap-12">
             <div>
                 <div class="absolute top-[50%] -left-24 z-0 hidden lg:block">
                     <img src="assets/images/bg/ac-circle.png" alt="">
@@ -753,37 +777,37 @@
                         The Achievement my
                         Project.
                     </h2>
-                    <p class="text-lg mb-4 text-white font-work">
+                    <p class="text-interface-200 text-lg mb-4 font-work text-white">
                         There are many variations of passages of Ipsum available,
                         majority have suffered.
                     </p>
                     <ul class="space-y-2.5 mb-10">
-                        <li class="flex items-center gap-3 text-lg text-interface-100 text-white font-work">
+                        <li class="flex items-center gap-3 text-lg text-interface-100 font-work text-white">
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"
-                                fill="none" stroke="#fff" stroke-width="1" stroke-linecap="round"
+                                fill="none" stroke="#4f4f4f" stroke-width="1" stroke-linecap="round"
                                 stroke-linejoin="round" class="lucide lucide-check mr-2  mt-1">
                                 <path d="M20 6 9 17l-5-5"></path>
                             </svg>
 
-                            <span>Suspe ndisse suscipit sagittis leo.</span>
+                            <span class="text-white">Suspe ndisse suscipit sagittis leo.</span>
                         </li>
-                        <li class="flex items-center gap-3 text-lg text-interface-100 text-white font-work">
+                        <li class="flex items-center gap-3 text-lg text-interface-100 font-work text-white">
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"
-                                fill="none" stroke="#fff" stroke-width="1" stroke-linecap="round"
+                                fill="none" stroke="#4f4f4f" stroke-width="1" stroke-linecap="round"
                                 stroke-linejoin="round" class="lucide lucide-check mr-2  mt-1">
                                 <path d="M20 6 9 17l-5-5"></path>
                             </svg>
 
-                            <span>Entum estibulum dignissim as posuere.</span>
+                            <span class="text-white">Entum estibulum dignissim as posuere.</span>
                         </li>
-                        <li class="flex items-center gap-3 text-lg text-interface-100 text-white font-work">
+                        <li class="flex items-center gap-3 text-lg text-interface-100 font-work text-white">
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"
-                                fill="none" stroke="#fff" stroke-width="1" stroke-linecap="round"
+                                fill="none" stroke="#4f4f4f" stroke-width="1" stroke-linecap="round"
                                 stroke-linejoin="round" class="lucide lucide-check mr-2  mt-1">
                                 <path d="M20 6 9 17l-5-5"></path>
                             </svg>
 
-                            <span>Suspe ndisse suscipit sagittis leo.</span>
+                            <span class="text-white">Suspe ndisse suscipit sagittis leo.</span>
                         </li>
                     </ul>
                     <a href="#"
@@ -945,7 +969,7 @@
         <div class="bg-white rounded shadow-lg ">
             <div class="relative">
                 <section class="relative  pb-16 bg-white overflow-hidden">
-                    <div class="absolute top-0 left-0 w-full lg:py-64 py-10 lg:bg-[#2691C9] bg-white"></div>
+                    <div class="absolute top-0 left-0 w-full lg:py-64 py-10 lg:bg-green-900 bg-white"></div>
                     <div class="relative z-10 container lg:px-4  px-0">
                         <div class="text-center py-6">
                             <p
@@ -1255,7 +1279,7 @@
                     <div class="cursor-e-resize">
                         <div
                             class="content relative rounded shadow-2xl m-2 p-10 bg-white before:content-[''] before:absolute before:start-1/2 before:-bottom-[4px] before:box-border before:border-8 before:rotate-[45deg] before:border-t-transparent before:border-e-white dark:before:border-white before:border-b-white dark:before:border-b-white before:border-s-transparent before:shadow-testi dark:before:shadow-white before:origin-top-left">
-                           
+                            <i class="mdi mdi-format-quote-open mdi-48px text-red-500"></i>
                             <p class="text-black font-work">" It seems that only fragments of the original text remain
                                 in
                                 the Lorem Ipsum texts used today. It seems that only fragments of the original text
@@ -1307,7 +1331,7 @@
                     <div class="cursor-e-resize">
                         <div
                             class="content relative rounded shadow-2xl m-2 p-10 bg-white before:content-[''] before:absolute before:start-1/2 before:-bottom-[4px] before:box-border before:border-8 before:rotate-[45deg] before:border-t-transparent before:border-e-white dark:before:border-white before:border-b-white dark:before:border-b-white before:border-s-transparent before:shadow-testi dark:before:shadow-white before:origin-top-left">
-                           
+                            <i class="mdi mdi-format-quote-open mdi-48px text-red-500"></i>
                             <p class="text-black font-work">" The most well-known dummy text is the 'Lorem Ipsum', which
                                 is said to have originated in the 16th century. The most well-known dummy text is the
                                 'Lorem Ipsum', which
@@ -1358,7 +1382,7 @@
                     <div class="cursor-e-resize">
                         <div
                             class="content relative rounded shadow-2xl m-2 p-10 bg-white before:content-[''] before:absolute before:start-1/2 before:-bottom-[4px] before:box-border before:border-8 before:rotate-[45deg] before:border-t-transparent before:border-e-white dark:before:border-white before:border-b-white dark:before:border-b-white before:border-s-transparent before:shadow-testi dark:before:shadow-white before:origin-top-left">
-                           
+                            <i class="mdi mdi-format-quote-open mdi-48px text-red-500"></i>
                             <p class="text-black font-work">" One disadvantage of Lorum Ipsum is that in Latin certain
                                 letters appear more frequently than others.One disadvantage of Lorum Ipsum is that in
                                 Latin certain
@@ -1409,7 +1433,7 @@
                     <div class="cursor-e-resize">
                         <div
                             class="content relative rounded shadow-2xl m-2 p-10 bg-white before:content-[''] before:absolute before:start-1/2 before:-bottom-[4px] before:box-border before:border-8 before:rotate-[45deg] before:border-t-transparent before:border-e-white dark:before:border-white before:border-b-white dark:before:border-b-white before:border-s-transparent before:shadow-testi dark:before:shadow-white before:origin-top-left">
-                           
+                            <i class="mdi mdi-format-quote-open mdi-48px text-red-500"></i>
                             <p class="text-black font-work">" Thus, Lorem Ipsum has only limited suitability as a visual
                                 filler for German texts. Thus, Lorem Ipsum has only limited suitability as a visual
                                 filler for German texts."</p>
@@ -1459,7 +1483,7 @@
                     <div class="cursor-e-resize">
                         <div
                             class="content relative rounded shadow-2xl m-2 p-10 bg-white before:content-[''] before:absolute before:start-1/2 before:-bottom-[4px] before:box-border before:border-8 before:rotate-[45deg] before:border-t-transparent before:border-e-white dark:before:border-white before:border-b-white dark:before:border-b-white before:border-s-transparent before:shadow-testi dark:before:shadow-white before:origin-top-left">
-                           
+                            <i class="mdi mdi-format-quote-open mdi-48px text-red-500"></i>
                             <p class="text-black font-work">" There is now an abundance of readable dummy texts. These
                                 are
                                 usually used when a text is required. There is now an abundance of readable dummy texts.
@@ -1511,7 +1535,7 @@
                     <div class="cursor-e-resize">
                         <div
                             class="content relative rounded shadow-2xl m-2 p-10 bg-white before:content-[''] before:absolute before:start-1/2 before:-bottom-[4px] before:box-border before:border-8 before:rotate-[45deg] before:border-t-transparent before:border-e-white dark:before:border-white before:border-b-white dark:before:border-b-white before:border-s-transparent before:shadow-testi dark:before:shadow-white before:origin-top-left">
-                           
+                            <i class="mdi mdi-format-quote-open mdi-48px text-red-500"></i>
                             <p class="text-black font-work">" According to most sources, Lorum Ipsum can be traced back
                                 to
                                 a text composed by Cicero. According to most sources, Lorum Ipsum can be traced back to
@@ -1566,7 +1590,7 @@
 
 <section data-aos="fade-up" class="bg-white py-8">
     <div class="container">
-        <div class="bg-[#24DF97] rounded shadow-lg ">
+        <div class="bg-two-color rounded shadow-lg ">
             <div class="row lg:flex md:flex sm:block ">
                 <div class="lg:w-1/2 mr-2 p-4 content-center">
                     <div class="lg:ms-10">
@@ -1602,7 +1626,7 @@
 </section>
 
 
-<section data-aos="fade-up" class="pt-20 bg-[#2691C9]">
+<section data-aos="fade-up" class="pt-20 bg-one-color">
     <div class="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
         <div class="flex flex-col gap-5 xl:gap-10 lg:flex-row justify-between">
             <div class="xl:w-6/12">
