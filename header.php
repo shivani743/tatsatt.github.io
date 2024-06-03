@@ -28,7 +28,7 @@
     <!-- Main Navigation Menu -->
     <header id="navbar"
         class="sticky inset-x-0 top-0 z-[999!important] transition-all bg-white duration-500 py-4 flex items-center [&.nav-sticky]:bg-white/90 [&.nav-sticky]:backdrop-blur-3xl [&.nav-sticky]:shadow-2xl dark:[&.nav-sticky]:bg-default-50/80"
-        style="box-shadow: 2px 27px 21px #0000001c!important;">
+        style="box-shadow: 2px 27px 21px #0000001c!important; background: #ffffffe5;">
         <div class="container">
             <div class="flex items-center justify-between flex-wrap lg:flex-nowrap gap-4">
                 <div class="w-full lg:w-auto flex items-center justify-between">
