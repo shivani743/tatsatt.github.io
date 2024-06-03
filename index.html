@@ -1790,56 +1790,91 @@
     AOS.init();
   </script>
 
-
 <script>
-    easy_background("#home",
-        {
-            slide: ["assets/images/bg/slider1.png", "assets/images/bg/slider2.png", "assets/images/bg/slider3.png"],
-            delay: [3000, 3000, 3000],
-
+    easy_background("#home", {
+        slide: ["assets/images/bg/slider1.png", "assets/images/bg/slider2.png", "assets/images/bg/slider3.png"],
+        delay: [3000, 3000, 3000],
+    
+    });
+    </script>
+    
+    
+    <script>
+    easy_background("#homes", {
+        slide: ["assets/images/bg/Frame 1.png", "assets/images/bg/Frame 2.png", "assets/images/bg/Frame 3.png",
+            "assets/images/bg/Frame 4.png"
+        ],
+        delay: [3000, 3000, 3000],
+    
+    });
+    </script>
+    <!-- JAVASCRIPTS -->
+    <script>
+    // script.js
+    
+    document.addEventListener('DOMContentLoaded', () => {
+        const openModalButton = document.getElementById('openModal');
+        const closeModalButton = document.getElementById('closeModal');
+        const modal = document.getElementById('modal');
+    
+        openModalButton.addEventListener('click', () => {
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        });
+    
+        closeModalButton.addEventListener('click', () => {
+            modal.classList.remove('flex');
+            modal.classList.add('hidden');
+        });
+    
+        // Close the modal when clicking outside of it
+        window.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                modal.classList.remove('flex');
+                modal.classList.add('hidden');
+            }
+        });
+    });
+    </script>
+    <script>
+    const modal = document.getElementById('myModal');
+    const openModalButton = document.getElementById('openModalButton');
+    
+    function openModal() {
+        modal.classList.remove('hidden');
+    }
+    
+    
+    function closeModal() {
+        modal.classList.add('hidden');
+    }
+    openModalButton.addEventListener('click', openModal);
+    document.querySelector('.close-modal').addEventListener('click', closeModal);
+    </script>
+    
+    <script>
+    function checkMe(selected) {
+        if (selected) {
+            document.getElementById("divcheck").style.display = "";
+        } else {
+            document.getElementById("divcheck").style.display = "none";
         }
-    );
-</script>
-<script>
-    easy_background("#homes",
-        {
-            slide: ["assets/images/bg/Frame 1.png", "assets/images/bg/Frame 2.png", "assets/images/bg/Frame 3.png", "assets/images/bg/Frame 4.png"],
-            delay: [3000, 3000, 3000],
-
+    
+    }
+    </script>
+    <script>
+    function checkMe1(selected) {
+        if (selected) {
+            document.getElementById("divcheck1").style.display = "";
+        } else {
+            document.getElementById("divcheck1").style.display = "none";
         }
-    );
-</script>
-<!-- JAVASCRIPTS ----->
-<script>
-  document.addEventListener('keydown', function() {
-  if (event.keyCode == 123) {
-    alert("This function has been disabled to prevent you from stealing my code!");
-    return false;
-  } else if (event.ctrlKey && event.shiftKey && event.keyCode == 73) {
-    alert("This function has been disabled to prevent you from stealing my code!");
-    return false;
-  } else if (event.ctrlKey && event.keyCode == 85) {
-    alert("This function has been disabled to prevent you from stealing my code!");
-    return false;
-  }
-}, false);
-
-if (document.addEventListener) {
-  document.addEventListener('contextmenu', function(e) {
-    alert("This function has been disabled to prevent you from stealing my code!");
-    e.preventDefault();
-  }, false);
-} else {
-  document.attachEvent('oncontextmenu', function() {
-    alert("This function has been disabled to prevent you from stealing my code!");
-    window.event.returnValue = false;
-  });
-}
-</script>
-
-
-<!-- JAVASCRIPTS -->
-
+    
+    }
+    </script>
+    
+    
+    
 
 </body>
 
