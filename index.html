@@ -1777,7 +1777,7 @@
         <a href="#">Urban Company</a>
     </p>
 </section>
-    <!---- JAVASCRIPTS --->
+    <!--- JAVASCRIPTS --->
     <script src="assets/libs/tobii/js/tobii.min.js"></script>
     <script src="assets/libs/tiny-slider/min/tiny-slider.js"></script>
     <script src="assets/js/easy_background.js"></script>
@@ -1790,26 +1790,54 @@
     AOS.init();
   </script>
 
+
 <script>
-    easy_background("#home", {
-        slide: ["assets/images/bg/slider1.png", "assets/images/bg/slider2.png", "assets/images/bg/slider3.png"],
-        delay: [3000, 3000, 3000],
-    
-    });
-    </script>
-    
-    
-    <script>
-    easy_background("#homes", {
-        slide: ["assets/images/bg/Frame 1.png", "assets/images/bg/Frame 2.png", "assets/images/bg/Frame 3.png",
-            "assets/images/bg/Frame 4.png"
-        ],
-        delay: [3000, 3000, 3000],
-    
-    });
-    </script>
-    <!-- JAVASCRIPTS -->
-    <script>
+    easy_background("#home",
+        {
+            slide: ["assets/images/bg/slider1.png", "assets/images/bg/slider2.png", "assets/images/bg/slider3.png"],
+            delay: [3000, 3000, 3000],
+
+        }
+    );
+</script>
+<script>
+    easy_background("#homes",
+        {
+            slide: ["assets/images/bg/Frame 1.png", "assets/images/bg/Frame 2.png", "assets/images/bg/Frame 3.png", "assets/images/bg/Frame 4.png"],
+            delay: [3000, 3000, 3000],
+
+        }
+    );
+</script>
+<!-- JAVASCRIPTS ----->
+<script>
+  document.addEventListener('keydown', function() {
+  if (event.keyCode == 123) {
+    alert("This function has been disabled to prevent you from stealing my code!");
+    return false;
+  } else if (event.ctrlKey && event.shiftKey && event.keyCode == 73) {
+    alert("This function has been disabled to prevent you from stealing my code!");
+    return false;
+  } else if (event.ctrlKey && event.keyCode == 85) {
+    alert("This function has been disabled to prevent you from stealing my code!");
+    return false;
+  }
+}, false);
+
+if (document.addEventListener) {
+  document.addEventListener('contextmenu', function(e) {
+    alert("This function has been disabled to prevent you from stealing my code!");
+    e.preventDefault();
+  }, false);
+} else {
+  document.attachEvent('oncontextmenu', function() {
+    alert("This function has been disabled to prevent you from stealing my code!");
+    window.event.returnValue = false;
+  });
+}
+</script>
+
+<script>
     // script.js
     
     document.addEventListener('DOMContentLoaded', () => {
@@ -1873,8 +1901,9 @@
     }
     </script>
     
-    
-    
+
+<!-- JAVASCRIPTS -->
+
 
 </body>
 
